@@ -1,0 +1,51 @@
+Bobo_army_1 = {
+	potential =
+	{
+		current_age = age_of_discovery
+	}
+	trigger =
+		{
+			current_age = age_of_discovery
+		}	
+
+	land_maintenance_modifier = 0.20
+}
+
+Bobo_army_2 = {
+	potential =
+	{
+		current_age = age_of_reformation
+	}
+	trigger =
+		{
+			current_age = age_of_reformation
+		}	
+
+	land_maintenance_modifier = 0.40
+}
+
+Bobo_army_3 = {
+	potential =
+	{
+		current_age = age_of_absolutism
+	}
+	trigger =
+		{
+			current_age = age_of_absolutism
+		}	
+
+	land_maintenance_modifier = 0.60
+}
+
+Bobo_army_4 = {
+	potential =
+	{
+		current_age = age_of_revolutions
+	}
+	trigger =
+		{
+			current_age = age_of_revolutions
+		}	
+
+	land_maintenance_modifier = 0.80
+}
