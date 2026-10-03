@@ -1,6 +1,7 @@
 ruler_age_10 = {
 	potential = {
-		always = yes
+		NOT = {ruler_age = 20}
+		has_regency = no
 	}
 	trigger = {
 		NOT = {ruler_age = 20}
@@ -10,7 +11,9 @@ ruler_age_10 = {
 }
 ruler_age_20 = {
 	potential = {
-		always = yes
+		ruler_age = 20
+		NOT = {ruler_age = 30}
+		has_regency = no
 	}
 	trigger = {
 		ruler_age = 20
@@ -21,7 +24,9 @@ ruler_age_20 = {
 }
 ruler_age_30 = {
 	potential = {
-		always = yes
+		ruler_age = 30
+		NOT = {ruler_age = 40}
+		has_regency = no
 	}
 	trigger = {
 		ruler_age = 30
@@ -32,7 +37,9 @@ ruler_age_30 = {
 }
 ruler_age_40 = {
 	potential = {
-		always = yes
+		ruler_age = 40
+		NOT = {ruler_age = 50}
+		has_regency = no
 	}
 	trigger = {
 		ruler_age = 40
@@ -43,7 +50,9 @@ ruler_age_40 = {
 }
 ruler_age_50_m = {
 	potential = {
-		always = yes
+		ruler_age = 50
+		NOT = {ruler_age = 60}
+		has_regency = no
 		is_female = no
 	}
 	trigger = {
@@ -55,7 +64,9 @@ ruler_age_50_m = {
 }
 ruler_age_60_m = {
 	potential = {
-		always = yes
+		ruler_age = 60
+		NOT = {ruler_age = 70}
+		has_regency = no
 		is_female = no
 	}
 	trigger = {
@@ -67,7 +78,9 @@ ruler_age_60_m = {
 }
 ruler_age_70_m = {
 	potential = {
-		always = yes
+		ruler_age = 70
+		NOT = {ruler_age = 80}
+		has_regency = no
 		is_female = no
 	}
 	trigger = {
@@ -79,7 +92,9 @@ ruler_age_70_m = {
 }
 ruler_age_80_m = {
 	potential = {
-		always = yes
+		ruler_age = 80
+		NOT = {ruler_age = 90}
+		has_regency = no
 		is_female = no
 	}
 	trigger = {
@@ -91,7 +106,9 @@ ruler_age_80_m = {
 }
 ruler_age_90_m = {
 	potential = {
-		always = yes
+		ruler_age = 90
+		NOT = {ruler_age = 100}
+		has_regency = no
 		is_female = no
 	}
 	trigger = {
@@ -103,7 +120,8 @@ ruler_age_90_m = {
 }
 ruler_age_100+_m = {
 	potential = {
-		always = yes
+		ruler_age = 100
+		has_regency = no
 		is_female = no
 	}
 	trigger = {
@@ -114,7 +132,8 @@ ruler_age_100+_m = {
 }
 ruler_age_50+_f = {
 	potential = {
-		always = yes
+		ruler_age = 50
+		has_regency = no
 		is_female = yes
 	}
 	trigger = {
