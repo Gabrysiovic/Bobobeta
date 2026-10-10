@@ -64,3 +64,148 @@ Bobo_GP =
 	}
 	ae_impact = 0.20
 }
+
+# +5% land maintenance for every 25 regiments from 200 onwards (stacks)
+
+Bobo_army_size_200 = {
+	potential = {
+		army_size = 200
+	}
+	trigger = {
+		army_size = 200
+	}
+
+	land_maintenance_modifier = 0.05
+}
+
+Bobo_army_size_225 = {
+	potential = {
+		army_size = 225
+	}
+	trigger = {
+		army_size = 225
+	}
+
+	land_maintenance_modifier = 0.05
+}
+
+Bobo_army_size_250 = {
+	potential = {
+		army_size = 250
+	}
+	trigger = {
+		army_size = 250
+	}
+
+	land_maintenance_modifier = 0.05
+}
+
+Bobo_army_size_275 = {
+	potential = {
+		army_size = 275
+	}
+	trigger = {
+		army_size = 275
+	}
+
+	land_maintenance_modifier = 0.05
+}
+
+Bobo_army_size_300 = {
+	potential = {
+		army_size = 300
+	}
+	trigger = {
+		army_size = 300
+	}
+
+	land_maintenance_modifier = 0.05
+}
+
+Bobo_army_size_325 = {
+	potential = {
+		army_size = 325
+	}
+	trigger = {
+		army_size = 325
+	}
+
+	land_maintenance_modifier = 0.05
+}
+
+Bobo_army_size_350 = {
+	potential = {
+		army_size = 350
+	}
+	trigger = {
+		army_size = 350
+	}
+
+	land_maintenance_modifier = 0.05
+}
+
+Bobo_army_size_375 = {
+	potential = {
+		army_size = 375
+	}
+	trigger = {
+		army_size = 375
+	}
+
+	land_maintenance_modifier = 0.05
+}
+
+Bobo_army_size_400 = {
+	potential = {
+		army_size = 400
+	}
+	trigger = {
+		army_size = 400
+	}
+
+	land_maintenance_modifier = 0.05
+}
+
+Bobo_army_size_425 = {
+	potential = {
+		army_size = 425
+	}
+	trigger = {
+		army_size = 425
+	}
+
+	land_maintenance_modifier = 0.05
+}
+
+Bobo_army_size_450 = {
+	potential = {
+		army_size = 450
+	}
+	trigger = {
+		army_size = 450
+	}
+
+	land_maintenance_modifier = 0.05
+}
+
+Bobo_army_size_475 = {
+	potential = {
+		army_size = 475
+	}
+	trigger = {
+		army_size = 475
+	}
+
+	land_maintenance_modifier = 0.05
+}
+
+Bobo_army_size_500 = {
+	potential = {
+		army_size = 500
+	}
+	trigger = {
+		army_size = 500
+	}
+
+	land_maintenance_modifier = 0.05
+}
