@@ -1,0 +1,19 @@
+# Sets bobo_fort_ratio = forts / owned provinces.
+# Only fort buildings count (fort_level 2+), so the free capital fort level is ignored.
+bobo_update_fort_ratio = {
+	set_variable = { which = bobo_forts value = 0 }
+	set_variable = { which = bobo_provinces value = 0 }
+	every_owned_province = {
+		owner = { change_variable = { which = bobo_provinces value = 1 } }
+		if = {
+			limit = { fort_level = 2 }
+			owner = { change_variable = { which = bobo_forts value = 1 } }
+		}
+	}
+	set_variable = { which = bobo_fort_ratio value = 0 }
+	if = {
+		limit = { check_variable = { which = bobo_provinces value = 1 } }
+		set_variable = { which = bobo_fort_ratio which = bobo_forts }
+		divide_variable = { which = bobo_fort_ratio which = bobo_provinces }
+	}
+}
