@@ -64,3 +64,368 @@ Bobo_GP =
 	}
 	ae_impact = 0.20
 }
+
+# +5% land maintenance for every 25 regiments from 200 onwards (stacks)
+
+Bobo_army_size_200 = {
+	potential = {
+		army_size = 200
+	}
+	trigger = {
+		army_size = 200
+	}
+
+	land_maintenance_modifier = 0.05
+}
+
+Bobo_army_size_225 = {
+	potential = {
+		army_size = 225
+	}
+	trigger = {
+		army_size = 225
+	}
+
+	land_maintenance_modifier = 0.05
+}
+
+Bobo_army_size_250 = {
+	potential = {
+		army_size = 250
+	}
+	trigger = {
+		army_size = 250
+	}
+
+	land_maintenance_modifier = 0.05
+}
+
+Bobo_army_size_275 = {
+	potential = {
+		army_size = 275
+	}
+	trigger = {
+		army_size = 275
+	}
+
+	land_maintenance_modifier = 0.05
+}
+
+Bobo_army_size_300 = {
+	potential = {
+		army_size = 300
+	}
+	trigger = {
+		army_size = 300
+	}
+
+	land_maintenance_modifier = 0.05
+}
+
+Bobo_army_size_325 = {
+	potential = {
+		army_size = 325
+	}
+	trigger = {
+		army_size = 325
+	}
+
+	land_maintenance_modifier = 0.05
+}
+
+Bobo_army_size_350 = {
+	potential = {
+		army_size = 350
+	}
+	trigger = {
+		army_size = 350
+	}
+
+	land_maintenance_modifier = 0.05
+}
+
+Bobo_army_size_375 = {
+	potential = {
+		army_size = 375
+	}
+	trigger = {
+		army_size = 375
+	}
+
+	land_maintenance_modifier = 0.05
+}
+
+Bobo_army_size_400 = {
+	potential = {
+		army_size = 400
+	}
+	trigger = {
+		army_size = 400
+	}
+
+	land_maintenance_modifier = 0.05
+}
+
+Bobo_army_size_425 = {
+	potential = {
+		army_size = 425
+	}
+	trigger = {
+		army_size = 425
+	}
+
+	land_maintenance_modifier = 0.05
+}
+
+Bobo_army_size_450 = {
+	potential = {
+		army_size = 450
+	}
+	trigger = {
+		army_size = 450
+	}
+
+	land_maintenance_modifier = 0.05
+}
+
+Bobo_army_size_475 = {
+	potential = {
+		army_size = 475
+	}
+	trigger = {
+		army_size = 475
+	}
+
+	land_maintenance_modifier = 0.05
+}
+
+Bobo_army_size_500 = {
+	potential = {
+		army_size = 500
+	}
+	trigger = {
+		army_size = 500
+	}
+
+	land_maintenance_modifier = 0.05
+}
+
+Bobo_army_size_525 = {
+	potential = {
+		army_size = 525
+	}
+	trigger = {
+		army_size = 525
+	}
+
+	land_maintenance_modifier = 0.05
+}
+
+Bobo_army_size_550 = {
+	potential = {
+		army_size = 550
+	}
+	trigger = {
+		army_size = 550
+	}
+
+	land_maintenance_modifier = 0.05
+}
+
+Bobo_army_size_575 = {
+	potential = {
+		army_size = 575
+	}
+	trigger = {
+		army_size = 575
+	}
+
+	land_maintenance_modifier = 0.05
+}
+
+Bobo_army_size_600 = {
+	potential = {
+		army_size = 600
+	}
+	trigger = {
+		army_size = 600
+	}
+
+	land_maintenance_modifier = 0.05
+}
+
+Bobo_army_size_625 = {
+	potential = {
+		army_size = 625
+	}
+	trigger = {
+		army_size = 625
+	}
+
+	land_maintenance_modifier = 0.05
+}
+
+Bobo_army_size_650 = {
+	potential = {
+		army_size = 650
+	}
+	trigger = {
+		army_size = 650
+	}
+
+	land_maintenance_modifier = 0.05
+}
+
+Bobo_army_size_675 = {
+	potential = {
+		army_size = 675
+	}
+	trigger = {
+		army_size = 675
+	}
+
+	land_maintenance_modifier = 0.05
+}
+
+Bobo_army_size_700 = {
+	potential = {
+		army_size = 700
+	}
+	trigger = {
+		army_size = 700
+	}
+
+	land_maintenance_modifier = 0.05
+}
+
+Bobo_army_size_725 = {
+	potential = {
+		army_size = 725
+	}
+	trigger = {
+		army_size = 725
+	}
+
+	land_maintenance_modifier = 0.05
+}
+
+Bobo_army_size_750 = {
+	potential = {
+		army_size = 750
+	}
+	trigger = {
+		army_size = 750
+	}
+
+	land_maintenance_modifier = 0.05
+}
+
+Bobo_army_size_775 = {
+	potential = {
+		army_size = 775
+	}
+	trigger = {
+		army_size = 775
+	}
+
+	land_maintenance_modifier = 0.05
+}
+
+Bobo_army_size_800 = {
+	potential = {
+		army_size = 800
+	}
+	trigger = {
+		army_size = 800
+	}
+
+	land_maintenance_modifier = 0.05
+}
+
+Bobo_army_size_825 = {
+	potential = {
+		army_size = 825
+	}
+	trigger = {
+		army_size = 825
+	}
+
+	land_maintenance_modifier = 0.05
+}
+
+Bobo_army_size_850 = {
+	potential = {
+		army_size = 850
+	}
+	trigger = {
+		army_size = 850
+	}
+
+	land_maintenance_modifier = 0.05
+}
+
+Bobo_army_size_875 = {
+	potential = {
+		army_size = 875
+	}
+	trigger = {
+		army_size = 875
+	}
+
+	land_maintenance_modifier = 0.05
+}
+
+Bobo_army_size_900 = {
+	potential = {
+		army_size = 900
+	}
+	trigger = {
+		army_size = 900
+	}
+
+	land_maintenance_modifier = 0.05
+}
+
+Bobo_army_size_925 = {
+	potential = {
+		army_size = 925
+	}
+	trigger = {
+		army_size = 925
+	}
+
+	land_maintenance_modifier = 0.05
+}
+
+Bobo_army_size_950 = {
+	potential = {
+		army_size = 950
+	}
+	trigger = {
+		army_size = 950
+	}
+
+	land_maintenance_modifier = 0.05
+}
+
+Bobo_army_size_975 = {
+	potential = {
+		army_size = 975
+	}
+	trigger = {
+		army_size = 975
+	}
+
+	land_maintenance_modifier = 0.05
+}
+
+Bobo_army_size_1000 = {
+	potential = {
+		army_size = 1000
+	}
+	trigger = {
+		army_size = 1000
+	}
+
+	land_maintenance_modifier = 0.05
+}
