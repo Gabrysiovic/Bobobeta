@@ -1,0 +1,4 @@
+# Recalculates the fort density used by the Bobo_forts_* triggered modifiers
+on_monthly_pulse = {
+	bobo_update_fort_ratio = yes
+}
