@@ -1567,15 +1567,18 @@ naples_missions_4 = {
 		trigger = {
 			lazio_area = {
 				type = all
-				owner = {
-					NOT = {
-						army_strength = {
-							who = ROOT
-							value = 1
+				OR = {
+					owned_by = ROOT
+					owner = {
+						NOT = {
+							army_strength = {
+								who = ROOT
+								value = 1
+							}
 						}
-					}
-					NOT = {
-						total_development = ROOT
+						NOT = {
+							total_development = ROOT
+						}
 					}
 				}
 			}
